@@ -8,17 +8,21 @@ This project provides an **interactive visualization** of U.S. wildfire data usi
 🔥 Part 1: Flask API for Wildfire Data
 The backend serves wildfire data stored in a local JSON file (USGS2014.json). The API allows filtering wildfire records by:
 
-State
-Year
-Fire Size
-Cause
-County
-Fire Name
-Key API Endpoints:
-Endpoint	Description	Example
-/search	Retrieve wildfire data with optional filters.	/search?state=CA&year=2020
-/years	Get a list of available years in the dataset.	/years
 
+- **State**
+- **Year**
+- **Fire Size**
+- **Cause**
+- **County**
+- **Fire Name**
+
+#### **Key API Endpoints:**
+| **Endpoint** | **Description**                               | **Example**                  |
+| ------------ | --------------------------------------------- | ---------------------------- |
+| `/search`    | Retrieve wildfire data with optional filters. | `/search?state=CA&year=2020` |
+| `/years`     | Get a list of available years in the dataset. | `/years`                     |
+
+---
 
  Part 2: Interactive Heatmap with Leaflet.js
 The front end uses Leaflet.js to generate an interactive wildfire heatmap. Users can filter wildfires by year and state and visualize their distribution on the map.
