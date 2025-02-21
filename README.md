@@ -1,10 +1,10 @@
-# project3-wildfires
+#U.S. Wildfires Data Visualization
+## **Description**
 
-U.S. Wildfires Data Visualization
-Description
-This project provides an interactive visualization of U.S. wildfire data using a Flask API and Leaflet.js. Users can query wildfire data and visualize fire occurrences on an interactive heatmap.
+This project provides an **interactive visualization** of U.S. wildfire data using a **Flask API and Leaflet.js**. Users can query wildfire data and visualize fire occurrences on an interactive heatmap.
 
-Summary
+---
+## Summary
 🔥 Part 1: Flask API for Wildfire Data
 The backend serves wildfire data stored in a local JSON file (USGS2014.json). The API allows filtering wildfire records by:
 
