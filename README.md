@@ -24,10 +24,10 @@ The backend serves wildfire data stored in a local JSON file (USGS2014.json). Th
 
 ---
 
- Part 2: Interactive Heatmap with Leaflet.js
-The front end uses Leaflet.js to generate an interactive wildfire heatmap. Users can filter wildfires by year and state and visualize their distribution on the map.
+The front end uses **Leaflet.js** to generate an interactive **wildfire heatmap**. Users can **filter wildfires by year and state** and visualize their distribution on the map.
 
-Key Features:
-Dropdown filters for state and year.
-Heatmap visualization with color intensity based on fire size.
-Popups displaying fire details (fire name, acres burned, cause, etc.).
+#### **Key Features:**
+
+- **Dropdown filters** for state and year.
+- **Heatmap visualization** with color intensity based on fire size.
+- **Popups displaying fire details** (fire name, acres burned, cause, etc.).
